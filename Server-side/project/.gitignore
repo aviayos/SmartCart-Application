@@ -1,0 +1,11 @@
+node_modules/*
+node_modules
+node_modules/
+tmp/
+tmp/*
+tmp
+.vscode
+server.js.*
+package-lock.json
+uploads/
+uploads/*
