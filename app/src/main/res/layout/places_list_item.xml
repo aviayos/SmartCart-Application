@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+
+        android:id="@+id/placeItemList"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/placeLogo"
+            android:layout_width="123dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+
+            android:id="@+id/place_name"
+            android:layout_width="180dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="39dp"
+            android:layout_toStartOf="@+id/moreInfo"
+            android:layout_toEndOf="@+id/placeLogo"
+            android:text="Name"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/place_address"
+            android:layout_width="180dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/place_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="58dp"
+            android:layout_toEndOf="@+id/placeLogo"
+            android:text="Address"
+            android:textStyle="bold" />
+
+        <ImageButton
+
+            android:id="@+id/moreInfo"
+            android:layout_width="28dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="27dp"
+            android:backgroundTint="@color/white"
+            android:onClick="moreInfo"
+            android:tint="@color/lightblue"
+            app:srcCompat="@drawable/ic_info_black_24dp" />
+        <!--android:clickable="true"-->
+        <!---->
+        <!--app:srcCompat="@android:drawable/ic_dialog_info" />-->
+        <ImageButton
+
+            android:id="@+id/mapView"
+            android:layout_width="28dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/moreInfo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="27dp"
+            android:backgroundTint="@color/white"
+            android:onClick="showMap"
+            android:outlineAmbientShadowColor="@color/blue"
+            android:tint="@color/red"
+            app:srcCompat="@drawable/ic_location_on_black_24dp" />
+
+        <TextView
+
+            android:id="@+id/filter_cat"
+            android:layout_width="180dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/place_address"
+            android:layout_alignStart="@+id/place_address"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="39dp"
+            android:layout_toStartOf="@+id/mapView"
+            android:text="Category Filter"
+            android:textStyle="bold"
+            android:textColor="@color/green"/>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

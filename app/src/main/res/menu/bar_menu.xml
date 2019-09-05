@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<item android:id="@+id/event" android:title="Events"/>-->
+    <!--<item android:id="@+id/search" android:title="Search"/>-->
+    <!--<item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_icon_setting"/>-->
+    <!--<item android:id="@+id/activites" android:title="Activities"/>-->
+    <!--<item android:id="@+id/logout" android:title="Logout"/>-->
+
+
+    <item
+    android:id="@+id/action_search"
+    android:checkable="false"
+    android:title="@string/action_search"
+    app:showAsAction="always"
+    app:actionViewClass="android.widget.SearchView"
+    />
+
+
+    <item
+    android:id="@+id/action_cart"
+    android:title="@string/action_add_contact"
+    app:showAsAction="always"
+    android:icon="@drawable/superm"
+    />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:actionLayout="@layout/activity_login"
+        >
+    </item>
+
+
+</menu>

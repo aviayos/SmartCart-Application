@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_viewing">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:iconTint="@color/white"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:iconTint="@color/white"
+            android:title="Search" />
+
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category_black_24dp"
+            android:iconTint="@color/white"
+            android:title="Category" />
+
+
+        <item
+            android:id="@+id/nac_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:iconTint="@color/white"
+            android:title="Cart" />
+
+
+        <item
+            android:id="@+id/nav_sendreview"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:iconTint="@color/white"
+            android:title="Send Review" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:iconTint="@color/white"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:iconTint="@color/white"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
