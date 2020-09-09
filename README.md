@@ -1,5 +1,6 @@
 # SmartCart-Application
-SmartCart - it's a user friendly application allows him to purchase the most compatible grocery shopping cart. 
+SmartCart - it's a user friendly application allows him to purchase the most compatible grocery shopping cart.
+This application contains 2 parts: app side and server side. I took a major part in the application side.
 
 ## Installation
 
