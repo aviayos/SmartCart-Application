@@ -1,5 +1,5 @@
 # SmartCart-Application
-SmartCart - it's a user friendly app which allows you to purchase the cheapest most compatible grocery shopping car
+SmartCart - it's a user friendly application allows him to purchase the most compatible grocery shopping cart. 
 
 ## Installation
 
